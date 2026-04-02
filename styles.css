@@ -92,3 +92,58 @@ footer {
     font-size: 13px;
     margin-top: 24px;
 }
+
+.section-description {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+/* ===== Home Page - Intro ===== */
+.intro {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 32px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.intro-text {
+    flex: 1;
+}
+
+.intro-text h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    color: #0a66c2;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.bio {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.intro-photo {
+    flex-shrink: 0;
+}
+
+.intro-photo img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 3px solid #e0e0e0;
+    background-color: #f3f2ef;
+}
