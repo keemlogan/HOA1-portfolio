@@ -202,3 +202,53 @@ footer {
     color: #999;
     margin-bottom: 8px;
 }
+
+/* ===== Projects Page ===== */
+.project-group {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 28px 32px;
+    margin-bottom: 16px;
+}
+
+.project-text h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-text p {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.project-text ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 14px;
+}
+
+.project-text li {
+    color: #555;
+    font-size: 14px;
+    padding: 3px 0;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #e8f0fe;
+    color: #0a66c2;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
+}
