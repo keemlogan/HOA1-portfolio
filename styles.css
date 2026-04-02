@@ -252,3 +252,43 @@ footer {
     font-size: 13px;
     font-weight: 600;
 }
+
+/* ===== Skills Page ===== */
+.skills-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.skill-category {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.skill-category h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.skill-category ul {
+    list-style: none;
+}
+
+.skill-category li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 15px;
+    color: #333;
+    border-bottom: 1px solid #f3f2ef;
+}
+
+.skill-category li:last-child {
+    border-bottom: none;
+}
