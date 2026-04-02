@@ -20,3 +20,75 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* ===== Navigation ===== */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 12px 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+    color: #0a66c2;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+.nav-links a {
+    color: #666;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.nav-links a:hover {
+    background-color: #f3f2ef;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-links a.active {
+    color: #0a66c2;
+    border-bottom: 2px solid #0a66c2;
+    border-radius: 0;
+}
+
+/* ===== Main Content ===== */
+main {
+    max-width: 768px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #999;
+    font-size: 13px;
+    margin-top: 24px;
+}
