@@ -330,3 +330,53 @@ footer {
     font-weight: 600;
     border: 1px solid #e0e0e0;
 }
+
+/* ===== Contact Page ===== */
+.contact-form {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 32px;
+    max-width: 520px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #0a66c2;
+}
+
+.contact-form button {
+    background-color: #0a66c2;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #004182;
+}
